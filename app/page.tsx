@@ -39,24 +39,32 @@ export default function Home() {
             technologies.
           </p>
 
-          <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-            <a
-              href="#projects"
-              className="rounded-full bg-blue-600 px-7 py-3 text-center font-semibold transition hover:bg-blue-500"
-            >
-              View My Work
-            </a>
+         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+  <a
+    href="#projects"
+    className="rounded-full bg-blue-600 px-7 py-3 text-center font-semibold transition hover:bg-blue-500"
+  >
+    View My Work
+  </a>
 
-            <a
-              href="#contact"
-              className="rounded-full border border-white/20 px-7 py-3 text-center font-semibold transition hover:bg-white/10"
-            >
-              Get In Touch
-            </a>
-          </div>
-        </div>
-      </section>
+  <a
+    href="/kings-dev-studio-cv.pdf"
+    download
+    className="rounded-full border border-white/20 px-7 py-3 text-center font-semibold transition hover:bg-white/10"
+  >
+    Download CV
+  </a>
 
+  <a
+    href="#contact"
+    className="rounded-full border border-white/20 px-7 py-3 text-center font-semibold transition hover:bg-white/10"
+  >
+    Get In Touch
+  </a>
+</div>
+
+</div>
+    </section>
       {/* About */}
       <section
         id="about"
@@ -243,11 +251,14 @@ export default function Home() {
           </p>
 
           <a
-            href="mailto:your-email@example.com"
-            className="mt-8 inline-block rounded-full bg-blue-600 px-7 py-3 font-semibold transition hover:bg-blue-500"
-          >
-            Contact Me
-          </a>
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=Kingrudy217@gmail.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-8 inline-block rounded-full bg-blue-600 px-7 py-3 font-semibold transition hover:bg-blue-500"
+>
+  Contact Me
+</a>
+          
         </div>
       </section>
 
